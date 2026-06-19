@@ -1,0 +1,19 @@
+# --- OS / editör artıkları ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# --- bağımlılık / build artıkları (repoda olmamalı) ---
+node_modules/
+*.log
+npm-debug.log*
+
+# --- paketler / arşivler (repoda kaynak değil, gerek yok) ---
+*.zip
+*.crx
+*.pem
+
+# --- IDE ---
+.vscode/
+.idea/
