@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TGTK — Kurulum</title>
+<style>
+  *{box-sizing:border-box;margin:0;font-family:-apple-system,Segoe UI,Roboto,sans-serif}
+  body{background:#0f0f12;color:#f2f2f5;line-height:1.6;padding:0 0 60px}
+  .top{background:linear-gradient(120deg,#7c5cff,#00d4ff);padding:34px 20px;text-align:center}
+  .top h1{font-size:30px;color:#fff;display:flex;gap:10px;align-items:center;justify-content:center}
+  .top p{color:#f3f0ff;margin-top:8px;font-size:15px}
+  .beta{font-size:12px;font-weight:800;background:rgba(255,255,255,.28);color:#fff;padding:3px 9px;border-radius:8px;vertical-align:middle}
+  .wrap{max-width:680px;margin:0 auto;padding:0 20px}
+  .card{background:#17171c;border-radius:16px;padding:20px 22px;margin-top:18px}
+  h2{font-size:18px;margin-bottom:10px;color:#fff}
+  ol{margin:0;padding-left:22px}
+  li{margin:10px 0}
+  .step b{color:#00d4ff}
+  code{background:#0b0b0e;color:#9fe9ff;padding:2px 7px;border-radius:6px;font-size:14px}
+  .pill{display:inline-block;background:rgba(124,92,255,.2);color:#c9b8ff;font-weight:700;font-size:12px;padding:3px 10px;border-radius:99px;margin-bottom:10px}
+  .muted{color:#9aa0aa;font-size:14px}
+  .heart{color:#ff5c8a}
+  .warn{background:rgba(255,176,32,.12);color:#ffb020;border-radius:10px;padding:12px 14px;font-size:14px;margin-top:14px}
+  a{color:#00d4ff}
+  svg{vertical-align:middle}
+</style>
+</head>
+<body>
+  <div class="top">
+    <h1>
+      <svg width="34" height="34" viewBox="0 0 48 48"><path d="M12 18 L9 5 L23 15 Z" fill="#fdf6ff"/><path d="M36 18 L39 5 L25 15 Z" fill="#fdf6ff"/><path d="M14 16 L12 8 L21 15 Z" fill="#ff9bc4"/><path d="M34 16 L36 8 L27 15 Z" fill="#ff9bc4"/><ellipse cx="24" cy="27" rx="16" ry="14" fill="#fdf6ff"/><circle cx="18" cy="26" r="2.4" fill="#2b2b3a"/><circle cx="30" cy="26" r="2.4" fill="#2b2b3a"/><circle cx="13" cy="31" r="2.3" fill="#ff9bc4" opacity=".8"/><circle cx="35" cy="31" r="2.3" fill="#ff9bc4" opacity=".8"/><path d="M22 31 L26 31 L24 34 Z" fill="#ff5c8a"/></svg>
+      TGTK <span class="beta">Beta</span>
+    </h1>
+    <p>Threads'te seni geri takip etmeyenleri bul · Kurulum kılavuzu</p>
+  </div>
+
+  <div class="wrap">
+    <div class="card">
+      <div class="pill">📦 1. Hazırlık</div>
+      <h2>Klasörü çıkar</h2>
+      <p class="muted">İndirdiğin ZIP dosyasına sağ tıkla → <b>Tümünü ayıkla / Extract</b>. İçinden çıkan klasörü masaüstü gibi kolay bir yere koy. (İçinde <code>manifest.json</code> olan klasör bu.)</p>
+    </div>
+
+    <div class="card">
+      <div class="pill">🧩 2. Chrome / Edge'e ekle</div>
+      <h2>Eklentiyi yükle</h2>
+      <ol>
+        <li class="step">Tarayıcıda adres çubuğuna <code>chrome://extensions</code> yaz, Enter. <span class="muted">(Edge'de <code>edge://extensions</code>)</span></li>
+        <li class="step">Sağ üstten <b>Geliştirici modu</b>'nu <b>aç</b>.</li>
+        <li class="step"><b>Paketlenmemiş öğe yükle</b> (Load unpacked) butonuna bas.</li>
+        <li class="step">1. adımda çıkardığın <b>klasörü seç</b>.</li>
+        <li class="step">Araç çubuğunda <b>🐱 kedi ikonu</b> belirir. Görünmezse puzzle 🧩 simgesine tıklayıp <b>sabitle</b>.</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <div class="pill">▶️ 3. Kullan</div>
+      <h2>Tara</h2>
+      <ol>
+        <li class="step"><a href="https://www.threads.com" target="_blank">threads.com</a>'a gir, hesabına giriş yap.</li>
+        <li class="step">Araç çubuğundaki <b>🐱 TGTK</b> → <b>Kontrol Et</b>.</li>
+        <li class="step">Sayfada açılan panelde <b>seni geri takip etmeyenler</b> listelenir.</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>💛 Küçük bir rica</h2>
+      <p class="muted">Araç tamamen <b style="color:#fff">ücretsiz</b>. Karşılığında tek ricamız: geliştiriciyi <a href="https://www.threads.com/@jrselupucin" target="_blank">@jrselupucin</a> takip etmen. Takip ettikten sonra sonuçlar gösterilir. <span class="heart">♥</span></p>
+      <p class="muted" style="margin-top:8px">Günde <b style="color:#fff">3 tarama</b> hakkın var (24 saatte yenilenir).</p>
+    </div>
+
+    <div class="card">
+      <h2>🔒 Gizlilik</h2>
+      <p class="muted">Eklenti <b>sadece-okuma</b> çalışır; hiçbir takip/takipten çıkma işlemi yapmaz. Hiçbir veri toplanmaz veya gönderilmez — her şey kendi cihazında kalır. Yalnızca threads.com üzerinde çalışır.</p>
+    </div>
+
+    <div class="warn">
+      🚧 <b>Beta sürüm:</b> Kararlı sürüm yakında Chrome Web Store'da yayınlanacak. Çok büyük takip listelerinde Threads bir kısmını yüklemeyebilir; eklenti taranan kısma göre sonucu gösterir ve bunu panelde açıkça belirtir.
+    </div>
+
+    <p class="muted" style="text-align:center;margin-top:24px">🐾 İyi kullanımlar! Sorun olursa: selupucin@gmail.com</p>
+  </div>
+</body>
+</html>
