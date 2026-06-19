@@ -2,6 +2,12 @@
 
 ![durum](https://img.shields.io/badge/durum-BETA-ff5c8a) ![tip](https://img.shields.io/badge/sadece--okuma-✓-7c5cff) ![gizlilik](https://img.shields.io/badge/veri-cihazda%20kalır-00d4ff)
 
+## ⬇️ İndir
+
+[![İNDİR (ZIP)](https://img.shields.io/badge/⬇%EF%B8%8F%20İNDİR%20(ZIP)-7c5cff?style=for-the-badge)](https://github.com/Selupucin/threadsgeritakipkontrol/archive/refs/heads/main.zip)
+
+**[📥 Doğrudan indir (ZIP)](https://github.com/Selupucin/threadsgeritakipkontrol/archive/refs/heads/main.zip)** → ZIP'i çıkar → aşağıdaki **Kurulum** adımlarını izle (veya çıkan klasördeki **`KURULUM.html`**'e çift tıkla).
+
 > 🚧 **BETA SÜRÜM** — Bu, erken test sürümüdür. Kararlı sürüm yakında **Chrome Web Store**'da yayınlanacak. Hata/öneri için issue açabilirsin.
 
 Threads'te **takip ettiklerin ile takipçilerini** karşılaştırır, **seni geri takip etmeyenleri** tek tıkla gösterir. Tamamen **sadece-okuma** — hiçbir takip/takipten çıkma işlemi yapmaz, verilerin cihazından çıkmaz.
