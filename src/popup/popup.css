@@ -5,6 +5,7 @@ body {
 }
 .head { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 20px; font-weight: 800; margin-bottom: 6px; }
 .head svg { display: block; }
+.beta { font-size: 10px; font-weight: 800; background: rgba(255,255,255,.15); padding: 2px 7px; border-radius: 7px; }
 .sub { font-size: 13px; color: #9aa0aa; margin-bottom: 16px; line-height: 1.4; }
 .btn {
   width: 100%; cursor: pointer; border: none; color: #fff; font-weight: 800; font-size: 15px;
