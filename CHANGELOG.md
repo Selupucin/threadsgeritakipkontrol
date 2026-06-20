@@ -4,6 +4,16 @@ Bu proje **Semantic Versioning** (SemVer) kullanır: `Major.Minor.Patch`.
 - **Major:** geriye uyumsuz köklü değişiklik · **Minor:** geriye uyumlu yeni özellik · **Patch:** hata/iyileştirme.
 - Beta sürümler `-beta` etiketiyle GitHub'da; kararlı sürüm Chrome Web Store'da yayınlanır.
 
+## [1.0.0] — 2026-06-19 · İlk kararlı sürüm 🎉
+### Değişti
+- **Beta etiketi kaldırıldı** — Chrome Web Store'da yayınlandı, kararlı sürüm.
+- Günlük tarama hakkı **5 → 10** çıkarıldı.
+### Eklendi
+- Hak bölümünün üzerine gelince **açıklayıcı ipucu** (tooltip): sınırın, Threads'in geçici yenileme/yükleme (hız sınırı) hatasını önlemek için olduğu belirtilir.
+- Sonuç ekranının altında **5★ ricası** notu.
+### Not
+- Store ve GitHub sürümleri **birebir aynı** (GitHub'daki tek fark: kod karıştırılmış/obfuscate).
+
 ## [0.4.3-beta] — 2026-06-19
 ### Düzeltildi
 - "Profili Aç" ile açılan satır artık listenin **en altına** taşınıyor (açılanlar altta toplanır).

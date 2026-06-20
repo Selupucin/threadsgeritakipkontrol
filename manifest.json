@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "TGTK — Threads Geri Takip Kontrol (Beta)",
-  "version": "0.4.3",
+  "name": "TGTK — Threads Geri Takip Kontrol",
+  "version": "1.0.0",
   "description": "Threads'te seni geri takip etmeyenleri bul. Sadece-okuma; verilerin cihazından çıkmaz, sunucu yok.",
   "icons": {
     "16": "icons/icon16.png",
@@ -17,26 +17,16 @@
       "128": "icons/icon128.png"
     }
   },
-  "permissions": [
-    "storage"
-  ],
+  "permissions": ["storage"],
   "host_permissions": [
     "https://www.threads.com/*",
     "https://www.threads.net/*"
   ],
   "content_scripts": [
     {
-      "matches": [
-        "https://www.threads.com/*",
-        "https://www.threads.net/*"
-      ],
-      "js": [
-        "src/lib/lottie.min.js",
-        "src/anim/cat.anim.js",
-        "src/content/content.js"
-      ],
+      "matches": ["https://www.threads.com/*", "https://www.threads.net/*"],
+      "js": ["src/lib/lottie.min.js", "src/anim/cat.anim.js", "src/content/content.js"],
       "run_at": "document_idle"
     }
-  ],
-  "version_name": "0.4.3-beta"
+  ]
 }
