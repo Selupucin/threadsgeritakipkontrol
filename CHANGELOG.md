@@ -4,6 +4,15 @@ Bu proje **Semantic Versioning** (SemVer) kullanır: `Major.Minor.Patch`.
 - **Major:** geriye uyumsuz köklü değişiklik · **Minor:** geriye uyumlu yeni özellik · **Patch:** hata/iyileştirme.
 - Beta sürümler `-beta` etiketiyle GitHub'da; kararlı sürüm Chrome Web Store'da yayınlanır.
 
+## [0.3.0-beta] — 2026-06-19
+### Eklendi
+- Sonuç listesinde **"✓ Bıraktım"** butonu — takipten çıktığını elle işaretle (otomatik tespit + manuel garanti).
+- **Akıllı sıralama:** Bakılmamış → Açıldı → Takip bırakıldı (durum değiştikçe satır otomatik taşınır).
+- Sonuç ekranında **"🔄 Tekrar Tara"** butonu.
+
+### Not
+- Günlük 5 tarama hakkı **sahip (jrselupucin) için sınırsızdır** (muaf); diğer kullanıcılarda 5'ten düşer.
+
 ## [0.2.0-beta] — 2026-06-19
 ### Eklendi
 - **Kesin takip kapısı:** Sahip profili butonu (gizli iframe) ile doğrulama — Threads'in liste limitinden (cap) bağımsız, kesin sonuç.
