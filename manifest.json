@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "TGTK — Threads Geri Takip Kontrol (Beta)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Threads'te seni geri takip etmeyenleri bul. Sadece-okuma; verilerin cihazından çıkmaz, sunucu yok.",
   "icons": {
     "16": "icons/icon16.png",
@@ -38,5 +38,5 @@
       "run_at": "document_idle"
     }
   ],
-  "version_name": "0.1.0-beta"
+  "version_name": "0.2.0-beta"
 }
