@@ -4,6 +4,10 @@ Bu proje **Semantic Versioning** (SemVer) kullanır: `Major.Minor.Patch`.
 - **Major:** geriye uyumsuz köklü değişiklik · **Minor:** geriye uyumlu yeni özellik · **Patch:** hata/iyileştirme.
 - Beta sürümler `-beta` etiketiyle GitHub'da; kararlı sürüm Chrome Web Store'da yayınlanır.
 
+## [0.4.3-beta] — 2026-06-19
+### Düzeltildi
+- "Profili Aç" ile açılan satır artık listenin **en altına** taşınıyor (açılanlar altta toplanır).
+
 ## [0.4.2-beta] — 2026-06-19
 ### Değişti
 - Otomatik "takip bırakıldı" tespiti (gizli iframe) Threads tarafından engellendiği için **kaldırıldı** (sonsuz "kontrol ediliyor" sorunu giderildi). Artık "Profili Aç"a basınca satır yalnızca **"Açıldı"** olarak işaretlenir; tekrar taramada diff/eski liste gösterilmez.
