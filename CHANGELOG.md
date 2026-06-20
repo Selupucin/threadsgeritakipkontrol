@@ -4,6 +4,12 @@ Bu proje **Semantic Versioning** (SemVer) kullanır: `Major.Minor.Patch`.
 - **Major:** geriye uyumsuz köklü değişiklik · **Minor:** geriye uyumlu yeni özellik · **Patch:** hata/iyileştirme.
 - Beta sürümler `-beta` etiketiyle GitHub'da; kararlı sürüm Chrome Web Store'da yayınlanır.
 
+## [1.0.1] — 2026-06-19
+### Eklendi
+- 5★ ricası artık **tıklanabilir** (Chrome Web Store yorum sayfasına gider).
+### Değişti
+- GitHub README: indirme bölümü kaldırıldı → herkes **Chrome Web Store'a yönlendiriliyor**.
+
 ## [1.0.0] — 2026-06-19 · İlk kararlı sürüm 🎉
 ### Değişti
 - **Beta etiketi kaldırıldı** — Chrome Web Store'da yayınlandı, kararlı sürüm.
