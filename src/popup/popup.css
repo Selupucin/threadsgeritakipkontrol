@@ -20,4 +20,9 @@ body {
 .hint { font-size: 12px; color: #ffb020; margin-top: 12px; min-height: 16px; line-height: 1.4; }
 .hint a { color: #00d4ff; }
 .limitinfo { font-size: 12px; font-weight: 700; color: #00d4ff; margin-top: 12px; }
+.limitinfo.owner {
+  color: #3a2a00; font-weight: 900; padding: 7px 12px; border-radius: 10px;
+  background: linear-gradient(120deg, #ffe08a, #ffb020, #ff8a3c);
+  box-shadow: 0 4px 14px rgba(255, 176, 32, .35);
+}
 .foot { font-size: 11px; color: #6b7280; margin-top: 14px; }

@@ -4,6 +4,10 @@ Bu proje **Semantic Versioning** (SemVer) kullanır: `Major.Minor.Patch`.
 - **Major:** geriye uyumsuz köklü değişiklik · **Minor:** geriye uyumlu yeni özellik · **Patch:** hata/iyileştirme.
 - Beta sürümler `-beta` etiketiyle GitHub'da; kararlı sürüm Chrome Web Store'da yayınlanır.
 
+## [0.4.1-beta] — 2026-06-19
+### Eklendi
+- Sahip (jrselupucin) tararken hak bölümünde özel **altın "👑 Sınırlama kaldırıldı"** rozeti (panel + popup).
+
 ## [0.4.0-beta] — 2026-06-19
 ### Eklendi
 - **Akıllı önbellek (liste bazlı):** Takipçi sayısı değişmediyse takipçiler yeniden taranmaz; takip edilen sayısı değişmediyse o da taranmaz. Her ikisi de aynıysa son sonuç anında gösterilir — **tarama hakkı harcanmaz.**
