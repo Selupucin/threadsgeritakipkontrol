@@ -4,6 +4,10 @@ Bu proje **Semantic Versioning** (SemVer) kullanır: `Major.Minor.Patch`.
 - **Major:** geriye uyumsuz köklü değişiklik · **Minor:** geriye uyumlu yeni özellik · **Patch:** hata/iyileştirme.
 - Beta sürümler `-beta` etiketiyle GitHub'da; kararlı sürüm Chrome Web Store'da yayınlanır.
 
+## [0.3.1-beta] — 2026-06-19
+### İyileştirildi
+- Otomatik "takip bırakıldı" tespiti güçlendirildi: sekmeye dönünce satırda **"kontrol ediliyor…"** gösterilir, bıraktıysan otomatik işaretlenir. Pencere odağında da tetiklenir. (Manuel "✓ Bıraktım" yedek olarak kalır — throttle/engel durumunda.)
+
 ## [0.3.0-beta] — 2026-06-19
 ### Eklendi
 - Sonuç listesinde **"✓ Bıraktım"** butonu — takipten çıktığını elle işaretle (otomatik tespit + manuel garanti).
