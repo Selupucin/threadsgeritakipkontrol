@@ -4,6 +4,11 @@ Bu proje **Semantic Versioning** (SemVer) kullanır: `Major.Minor.Patch`.
 - **Major:** geriye uyumsuz köklü değişiklik · **Minor:** geriye uyumlu yeni özellik · **Patch:** hata/iyileştirme.
 - Beta sürümler `-beta` etiketiyle GitHub'da; kararlı sürüm Chrome Web Store'da yayınlanır.
 
+## [1.2.0] — 2026-06-20 · Cap çözüldü 🚀
+### Eklendi
+- **TAM LİSTE:** Threads'in ~430-450 modal sınırı aşıldı. Artık takipçi ve takip edilenlerin **tamamı** Threads'in kendi sayfalı API'siyle çekiliyor (kaydırma yok, çok daha hızlı + eksiksiz). Sayıya dahil olan kapanmış/hayalet hesaplar hariç (onlar hiçbir yerde listelenmez).
+- API engellenirse otomatik **DOM yedeği** devreye girer.
+
 ## [1.1.1] — 2026-06-20
 ### Değişti
 - "🆕 Yenilikler" bölümü artık **hep açık** ve **sadece en son sürümü** şık bir kartta gösteriyor.
