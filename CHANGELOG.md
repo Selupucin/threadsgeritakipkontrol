@@ -4,6 +4,12 @@ Bu proje **Semantic Versioning** (SemVer) kullanır: `Major.Minor.Patch`.
 - **Major:** geriye uyumsuz köklü değişiklik · **Minor:** geriye uyumlu yeni özellik · **Patch:** hata/iyileştirme.
 - Beta sürümler `-beta` etiketiyle GitHub'da; kararlı sürüm Chrome Web Store'da yayınlanır.
 
+## [1.1.0] — 2026-06-20
+### Eklendi
+- **Yoksay:** Sonuç listesindeki her satırda "Yoksay" butonu — ünlü/istediğin hesapları işaretle, sonraki taramalarda listede görünmesin. Alt bilgide "X yoksayıldı · Sıfırla".
+- **Hızlı sekme açma:** "İlk 5’i aç" / "İlk 10’u aç" — profilleri arka plan sekmelerinde açar ve "Açıldı" olarak işaretler.
+- **Popup'ta "🆕 Yenilikler" listesi:** her sürümde yapılan değişiklikler görünür.
+
 ## [1.0.1] — 2026-06-19
 ### Eklendi
 - 5★ ricası artık **tıklanabilir** (Chrome Web Store yorum sayfasına gider).
