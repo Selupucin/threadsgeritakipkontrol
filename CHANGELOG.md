@@ -4,6 +4,10 @@ Bu proje **Semantic Versioning** (SemVer) kullanır: `Major.Minor.Patch`.
 - **Major:** geriye uyumsuz köklü değişiklik · **Minor:** geriye uyumlu yeni özellik · **Patch:** hata/iyileştirme.
 - Beta sürümler `-beta` etiketiyle GitHub'da; kararlı sürüm Chrome Web Store'da yayınlanır.
 
+## [1.2.2] — 2026-06-20
+### Değişti
+- "Yenilikler" kartı Kontrol Et ile kalan-hak arasına taşındı; gradient arka plan + şık kart tasarımı.
+
 ## [1.2.1] — 2026-06-20
 ### Değişti
 - Popup tasarımı yenilendi: gradient başlık bandı, sadeleştirilmiş ve satış odaklı "Yenilikler" kartı.
