@@ -4,6 +4,10 @@ Bu proje **Semantic Versioning** (SemVer) kullanır: `Major.Minor.Patch`.
 - **Major:** geriye uyumsuz köklü değişiklik · **Minor:** geriye uyumlu yeni özellik · **Patch:** hata/iyileştirme.
 - Beta sürümler `-beta` etiketiyle GitHub'da; kararlı sürüm Chrome Web Store'da yayınlanır.
 
+## [1.1.1] — 2026-06-20
+### Değişti
+- "🆕 Yenilikler" bölümü artık **hep açık** ve **sadece en son sürümü** şık bir kartta gösteriyor.
+
 ## [1.1.0] — 2026-06-20
 ### Eklendi
 - **Yoksay:** Sonuç listesindeki her satırda "Yoksay" butonu — ünlü/istediğin hesapları işaretle, sonraki taramalarda listede görünmesin. Alt bilgide "X yoksayıldı · Sıfırla".
